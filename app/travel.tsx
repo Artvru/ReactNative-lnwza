@@ -1,13 +1,24 @@
-import { StatusBar } from 'expo-status-bar';
+
+import Card from '@/components/week3/card';
+import Hotel from '@/components/week3/hotel';
+import Menu from '@/components/week3/Menu';
+import Signup from '@/components/week3/Signup';
 import React from 'react';
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
-import Signup from '@/components/week3/singup';
+import { ScrollView, Text, View } from 'react-native';
+
+
 
 export default function Travel() {
-    return (        
-        <ScrollView style={{ flex: 1, paddingTop : 50 }}>
-            {/* <Text> Week 3 </Text> */}
-            <Signup />
+    return (
+        <ScrollView>
+            <View style={{ flex: 1, paddingTop: 50 }}>
+                <Text>Week 3 </Text>
+                <Menu />
+                <Card />
+                <Hotel />
+                <Signup />
+
+            </View>
         </ScrollView>
     );
 }

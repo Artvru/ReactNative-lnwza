@@ -89,8 +89,24 @@ export default function Index() {
           <Text style={styles.linkText}>Health</Text>
         </Link>
 
+        <Link href="/home" style={styles.link}>
+          <Text style={styles.linkText}>Home</Text>
+        </Link>
 
-        
+        <Link href="/chart" style={styles.link}>
+          <Text style={styles.linkText}>Chart</Text>
+        </Link>
+
+        <Link href="/your-health" style={styles.link}>
+          <Text style={styles.linkText}>Your Health</Text>
+        </Link>
+
+
+
+
+
+
+
 
 
 

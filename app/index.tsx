@@ -101,6 +101,20 @@ export default function Index() {
           <Text style={styles.linkText}>Your Health</Text>
         </Link>
 
+        <Link href="/location" style={styles.link}>
+          <Text style={styles.linkText}>Location</Text>
+        </Link>
+
+        <Link href="/ant" style={styles.link}>
+          <Text style={styles.linkText}>heros</Text>
+        </Link>
+
+        <Link href="/charmander" style={styles.link}>
+          <Text style={styles.linkText}>Pokemon</Text>
+        </Link>
+
+
+
 
 
 
